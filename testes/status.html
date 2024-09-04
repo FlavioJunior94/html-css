@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status</title>
+</head>
+<STYle>
+    .status{
+        color:blue;
+        background-color: aqua;
+        text-align: center;
+    }
+    .online{
+        background-color: green;
+        color: white;
+    }
+    .offline{
+        background-color: red;
+        color: white;
+    }
+</STYle>
+<body>
+    vm1
+    <div id="vm1" class="status">Verificando...</div>
+    vm2
+    <div id="vm2" class="status">Verificando...</div>
+    vm3
+    <div id="vm3" class="status">Verificando...</div>
+
+    <script>
+        var var_status='on'
+        var vm='vm1'
+        const vms = [
+            {id:'vm1',status:'on'},
+            {id:'vm2',status:'on'},
+            {id:'vm3',status:'on'}
+        ];
+
+
+        function verificar(vm){
+            if (vm.status==='on'){
+                document.getElementById(vm.id).className='status online';
+                
+                document.getElementById(vm.id).innerText='online';
+            }
+            else{
+                document.getElementById(vm.id).className='status offline';
+                document.getElementById(vm.id).innerText='offline';
+            }
+        }
+
+        function check(){
+            vms.forEach(vm => verificar(vm))
+        }
+        check()
+    </script>
+</body>
+</html>

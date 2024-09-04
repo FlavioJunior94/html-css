@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            width: 100%;
+        }
+        .butao{
+            color: white;
+            background-color: blue;
+            width: 100px;
+            height: 90px;
+            border-radius: 30%;
+            text-align: center;
+           
+        }
+        .butao:hover{
+            background-color: rgb(114, 114, 249);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="butao" class="butao" onclick="colorButao()">CLIQUE</div>
+    </div>
+    <script>
+        function sleep(milliseconds) {
+            return new Promise(resolve => setTimeout(resolve, milliseconds))
+        }
+        async function colorButao(){
+           const bt = document.getElementById('butao')
+           btCOlor = bt.style.background='red'
+           await sleep(500);
+           btCOlor = bt.style.background=''
+           //window.location.reload(true);
+        }
+    </script>
+</body>
+</html>
