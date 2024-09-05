@@ -5,6 +5,3 @@ Este repositório contém atividades práticas em HTML e CSS realizadas a partir
 ## Objetivo
 
 O objetivo deste repositório é consolidar o aprendizado adquirido durante o curso, aplicando os conceitos ensinados em cada módulo.
-
-teste
-
