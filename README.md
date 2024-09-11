@@ -5,3 +5,11 @@ Este repositório contém atividades práticas em HTML e CSS realizadas a partir
 ## Objetivo
 
 O objetivo deste repositório é consolidar o aprendizado adquirido durante o curso, aplicando os conceitos ensinados em cada módulo.
+
+## MODULOS
+
+-**MODULO1** : Conceitos Básicos, preparação do ambiente, semântica da HTML5, textos títulos, ligações, multimidia, estilos.
+-**MODULO2** : Fundamentos do design, psicologia das cores, tipografia, elementos CSS, modelo de caixas, wireframe, responsividade.
+-**MODULO3** : Versionamento de Software, hospedagem de sites estáticos, tabelas.
+-**MODULO4** : Quadros em linha, formulários, media queries, mobile first.
+-**MODULO5** :  Flexbox, Grind Layout, Projeto Final.
