@@ -14,6 +14,6 @@ O objetivo deste repositório é consolidar o aprendizado adquirido durante o cu
 
 - **Modulo3** : Versionamento de Software, hospedagem de sites estáticos, tabelas.
 
--**Modulo4** : Quadros em linha, formulários, media queries, mobile first.
+- **Modulo4** : Quadros em linha, formulários, media queries, mobile first.
 
 - **Modulo5** :  Flexbox, Grind Layout, Projeto Final.
