@@ -15,9 +15,7 @@
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 300px;
-            /*flex-shrink: 0;
-            flex-grow: 1;*/
+
         }
         img{
             width: 80vw;
@@ -26,25 +24,21 @@
         }
 
         div#i1{
-            flex-basis: 150px ;
-            flex-grow: 0;
-            flex-shrink: 1;
-            /*
-            ou
-
-            flex: 0 1 150px;
-            */
+            flex: 1 0 200px;
         }
         div#i2{
-            flex-basis: 150px ;
-            flex-grow: 2;
-            flex-shrink: 0;
+            flex: 1 1 150px;
         }
         div#i3{
-            flex-basis: 150px ;
-            flex-grow: 1;
-            flex-shrink: 2;
+            flex: 1 8 auto ;
         }
+        /*
+        flex:
+        padrao: 0 1 auto;
+        initial = padrao = 0 1 auto;
+        none = 0 0 auto;
+        auto = 1 1 auto;
+        */
     </style>
 </head>
 <body>
